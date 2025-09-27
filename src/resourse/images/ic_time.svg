@@ -1,0 +1,7 @@
+<svg id="ic_Assignments" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <circle id="Oval" cx="8" cy="8" r="8" fill="none"/>
+  <g id="Group_30" data-name="Group 30" transform="translate(0.333 0.333)">
+    <path id="Path_2" data-name="Path 2" d="M2.5,3.76.851,2.138a.5.5,0,0,0-.7.712L2.182,4.856a.5.5,0,0,0,.737-.038l3.3-4A.5.5,0,0,0,5.448.182Z" transform="translate(4.493 5.167)" fill="#6f6f6f"/>
+    <path id="Rectangle_97" data-name="Rectangle 97" d="M8.833,14.333H5.5A5.506,5.506,0,0,1,0,8.833V5.5A5.506,5.506,0,0,1,5.5,0H8.833a5.506,5.506,0,0,1,5.5,5.5V8.833A5.506,5.506,0,0,1,8.833,14.333ZM5.5,1A4.505,4.505,0,0,0,1,5.5V8.833a4.505,4.505,0,0,0,4.5,4.5H8.833a4.505,4.505,0,0,0,4.5-4.5V5.5A4.505,4.505,0,0,0,8.833,1Z" transform="translate(0.5 0.5)" fill="#6f6f6f"/>
+  </g>
+</svg>

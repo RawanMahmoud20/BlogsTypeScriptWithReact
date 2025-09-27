@@ -1,0 +1,214 @@
+body{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+.websiteheader{
+    height: 551px;
+    background-color: #1d968d;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+}
+/* SECTION */
+.websiteheader> section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: calc(0.5em -5px);
+    justify-content: space-between;
+    padding: 51px 100px  0px 100px ;
+
+}
+.websiteheader > span:first-of-type{
+    font-size: 0.4em ;      /* بياخذ الخط من اقرب أب اله  */
+    font-weight: bold;
+
+}
+
+.websiteheader >section > nav >ul {
+    display: flex;
+    font-size: calc(0.5em - 5px);
+    column-gap: 70px;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.websiteheader >section > nav >ul >li >a{
+    text-decoration: none;
+
+    color: white;
+}
+.activel-link{
+    font-weight: bold;
+}
+.websiteheader >section >button {
+    background-color: rgba(195, 195, 186, 0.31);
+    border: none;
+    color: white;
+    padding: 17px 64px;
+    font-size: calc(0.4em - 5px);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-weight: 500px;
+}
+.websiteheader > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 12%;
+}
+
+.websiteheader > article > span {
+    font-weight: bold;
+}
+/* CONTENT-WRAPPER */
+.WebSite-content-wrapper {
+    padding: 60px 12% 60px;
+}
+.content {
+    font-size: 25px;
+    display: flex; 
+    flex-direction: column;
+}
+.content > span:first-of-type {
+    font-size: 1em;
+    font-weight: bold;
+    flex: 1;
+    border-bottom: 0.5px solid #34376e6e;
+    margin-bottom: 30px;
+}
+/* BLOG ITEM */
+.blog {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.5px solid #34376e6e;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    column-gap: 190px;
+}
+.blog >section{
+display: flex;
+flex-direction: column;
+flex: 2;
+min-width: 400px;
+
+}
+.blog>section>article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 20px;
+
+}
+.blog-category {
+    padding: 9px 11px;
+    background-color: #fff4ec;
+    border-radius: 8px;
+    font-size: 0.5em;
+    color: #ff974a;
+    font-weight: bold;
+}
+.blog-date {
+    font-size: 0.5em;     /*  بالنسبة للاب تاعها الكونينت الي ماخذ 25 13px تكافئ 0.5em */
+    color: #8e8e8e;
+    font-weight: bold;
+}
+.blog-title {
+    color: #1d968d;
+    font-weight: bold;  
+    font-size:1em;     /* 25px تكافئ 1em em */
+    margin-bottom: 15px;
+
+}
+
+.blog-brief-description {
+    color: black;
+    font-size:0.7em;     /* 20px تكافئ .7em em */
+    font-weight: 400;     /* لانه  regular */
+    line-height: 1.8;
+
+}
+.blog-image {
+    display: flex;
+    justify-content: end;
+    flex: 1; 
+    margin: 0px;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 8px;
+}
+.blog-image > img {
+}
+/* JOIN-US */
+.join-us {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    min-height: 373px;
+    color: white;
+    background-color: #1d968d;
+    margin: 100px 10%;
+    padding: 10% 20%;
+    border-radius: 10px;
+  }
+  
+  .join-us > span:first-of-type {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .join-us > span:last-of-type {
+    font-size: 0.83em;
+    font-weight: 400;
+  }
+  
+  .join-us > section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .join-us > section > input {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: transparent;
+    width: 100%;
+    outline: none;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    min-width: 217px;
+    flex: 1;
+    box-sizing: border-box;
+  }
+  
+  .join-us > section > button {
+    border: none;
+    /* padding: 15px 0px; */
+    height: 100vh;
+    min-width: 217px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #2a8881;
+    flex: 1;
+    color: white;
+    max-height: 68px;
+  }
+  
