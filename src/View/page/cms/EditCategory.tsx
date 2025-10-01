@@ -73,10 +73,10 @@ let newCategory={
 try{
    //  استدعاء الـ API
   const api = new categoriesApiController();
-  const response= await api.create(newCategory as any);
+const response = await api.update(Number(id), newCategory as any);
  if(response && response.status !== false){
         const categoryToAdd = new Category(
-        response.data?.id || Date.now(), // إذا API رجعت id استخدمه، وإلا استخدم تاريخ اليوم كـ id فريد
+        response.data?.id ||Number(id),// إذا API رجعت id استخدمه، وإلا استخدم تاريخ اليوم كـ id فريد
         newCategory.name,
         newCategory.slug
       );
