@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-// import "../../../resourse/css/style.css";
+import "../../../resourse/css/style.css";
 import { Outlet } from "react-router-dom";
 
 let WebsiteParent = () => {
@@ -11,17 +11,17 @@ let WebsiteParent = () => {
           <nav>
             <ul>
               <li>
-                <a href="#" className="activel-link">
+                <a href="/cms/blog" className="activel-link">
                   Home{" "}
                 </a>
               </li>
               <li>
-                <a href="#" className="activel-link">
+                <a href="/cms/blog" className="activel-link">
                   Trendy Blogs
                 </a>
               </li>
               <li>
-                <a href="#" className="activel-link">
+                <a href="/cms/categories" className="activel-link">
                   {" "}
                   Categories{" "}
                 </a>
